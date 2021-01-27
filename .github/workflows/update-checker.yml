@@ -14,12 +14,12 @@ name: Update Checker
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  TZ: Asia/Shanghai
+#  TZ: Asia/Shanghai
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 10 * * *'
+    - cron: '30 19 * * *'
 #    - cron: 0 */18 * * *
 
 jobs:
